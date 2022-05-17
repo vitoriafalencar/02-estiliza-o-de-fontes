@@ -1,0 +1,118 @@
+.disc {
+    list-style: disc;
+
+}
+
+.circle {
+    list-style: circle;
+
+}
+
+.square {
+    list-style: square;
+}
+
+.none {
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: lime
+}
+
+a:visited {
+    color: rgb(64, 69, 64)
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 30, 255);
+}
+
+a:focus {
+    color: rgb(19, 19, 38);
+}
+
+a:active {
+    color: red;
+}
+
+#google:none{
+    text-decoration: none;
+    color: lime;
+
+}
+
+#google:link {
+    text-decoration: none;
+    color: lime;
+}
+
+#google:visited {
+    color: blueviolet;
+}
+
+#google:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#google:focus {
+    color: gold
+}
+
+#google:active {
+    color: deeppink;
+}
+
+#google.square {
+    list-style: square;
+}
+@font-face {
+    font-family: "rubik";
+    src: url(rubik-black-webfont.woff);
+
+}
+
+#woff {
+    font-family: 'rubix';
+    font-size: 60px;
+    font-weight: 200;
+    text-decoration: none;
+    writing-mode: horizontal-tb;
+    inline-size: 500px;
+}
+
+@font-face {
+    font-family: "rubik";
+    src: url(rubik-black-webfont.woff2);
+
+}
+
+#woff2{
+    font-family: 'rubix';
+    font-size: 60px;
+    font-weight: 200;
+    text-decoration: none;
+    writing-mode: horizontal-tb;
+    inline-size: 500px;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital@1&display=swap');
+
+
+
+#google{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 100;
+    text-decoration: underline;
+    writing-mode: horizontal-tb;
+    inline-size: 500px
+}
